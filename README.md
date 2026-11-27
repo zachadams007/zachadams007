@@ -47,7 +47,7 @@ Writes C. Builds in TypeScript, Rust and Python by directing AI coding agents, w
 
 | Problem | File |
 |---|---|
-| A published ranking that any visitor could have overwritten, and the migration that closed it | [`0013_daily_signals_trusted_writer.sql`](https://github.com/zachadams007/catalyzed-alpha-platform/blob/main/supabase/migrations/0013_daily_signals_trusted_writer.sql) |
+| A backtest that must never see the future: a test plants a future-dated bar and checks it never reaches the replay | [`noLeak.test.ts`](https://github.com/zachadams007/catalyzed-alpha-platform/blob/main/scripts/backtest/__tests__/noLeak.test.ts#L99) |
 | Cross-sectional ranking of the day's universe in one module | [`normalizeUniverse.ts`](https://github.com/zachadams007/catalyzed-alpha-platform/blob/main/src/engine/normalizeUniverse.ts) |
 | A watchdog that tells a silent webview from a crashed one | [`lib.rs`](https://github.com/zachadams007/praxis-desktop/blob/main/src-tauri/src/lib.rs#L1031) |
 | A process registry that survives PID reuse | [`flightdeck.rs`](https://github.com/zachadams007/praxis-desktop/blob/main/src-tauri/src/flightdeck.rs#L5591) |
